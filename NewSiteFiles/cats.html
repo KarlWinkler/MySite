@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en" >
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head> 
+
+	<title> Cats </title>
+	<link rel= "stylesheet"
+		  type= "text/css"
+	      href= "page.css" />
+	      
+	<script src= "page.js"></script>
+</head>
+
+<body>
+<div id= "container">
+	<div id="headerDiv">
+	<h1 id="header">Cat Images</h1>
+	</div>
+
+
+	<ul id="menu">
+		<li class="sel"><a href= "dogs.html" >Dog Images</a></li>
+		<li class="sel"><a href= "cats.html" >Cat Images</a></li>
+		<li class="sel"><a href= "art.html"  >Art Images</a></li>
+	</ul>
+
+
+	<div id="sidebarDiv">
+	<ul id="sidebar">
+		<li class="top">
+			<h3>Happy Cats</h3>
+			<ul>
+				<li><button type= "button" onclick= "change('cat1happy')"> happy cat 1 </button> </li>
+				<li><button type= "button" onclick= "change('cat2happy')"> happy cat 2 </button> </li>
+				<li><button type= "button" onclick= "change('cat3happy')"> happy cat 3 </button> </li>
+			</ul>
+		</li>
+		<li class="top">
+			<h3>Funny Cats</h3>
+			<ul>
+				<li><button type= "button" onclick= "change('cat1funny')"> funny cat 1 </button> </li>
+				<li><button type= "button" onclick= "change('cat2funny')"> funny cat 2 </button> </li>
+				<li><button type= "button" onclick= "change('cat3funny')"> funny cat 3 </button> </li>
+			</ul>
+		</li>
+		<li class="top">
+			<h3>Cute Cats</h3>
+			<ul> 
+				<li><button type= "button" onclick= "change('cat1cute')"> cute cat 1 </button> </li>
+				<li><button type= "button" onclick= "change('cat2cute')"> cute cat 2 </button> </li>
+				<li><button type= "button" onclick= "change('cat3cute')"> cute cat 3 </button> </li>
+			</ul>
+		</li>
+	</ul>
+	</div>
+
+	<div id="displayDiv">
+	<p><img id="displayImg" src="res/cat.jpg" alt="cat"></p>
+	</div>
+
+	<div id="footerDiv">
+	<h2 id="footer">By Karl Winkler: <br/>these are not my images yet, wait for the site to get out of alpha before we get any of those</h2>
+	</div>
+</div>
+</body>
+
+</html>
